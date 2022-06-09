@@ -1,0 +1,35 @@
+<!-- 顶部导航开始 -->
+<view class="top-nav">
+  <view class="top-nav-inner">
+    <!-- 自动定位城市开始 -->
+    <navigator url="/pages/citylist/citylist"
+      hover-class="none">
+        <view class="city-entry">
+            <text class="city-name">北京</text>
+            <text class="city-entry-arrow"></text>
+        </view>
+    </navigator>
+    <!-- 自动定位城市结束 -->
+    
+    <!-- 搜索区域开始 -->
+    <view class="search-view">
+      <view class="search-icon"></view>
+    </view>
+    <!-- 搜索区域结束 -->
+  </view>
+</view>
+<!-- 顶部导航结束 -->
+
+<view class="item mb-line-b">
+  <view class="title-block">
+    <view class="title line-ellipsis">青少年剧场</view>
+    <view class="location-block">
+        <view class="flex line-ellipsis">丰台区西四环南路86号</view>
+        <view class="distance">2.5km</view>
+    </view>
+    <view class="label-block">
+      <text class="allowRefund">电话:</text>
+      <text class="vipTag">010-00233123</text>
+    </view>
+  </view>
+</view>
